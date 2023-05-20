@@ -19,7 +19,7 @@ useEffect(()=>{
       <ul>
 
         {records.map((list, index,)=> (
-          <li key ={index}>{list.id} | {list.name}{list.quote}</li>
+          <li key ={index}>{list.id} | {list.name}{list.quote}{list.author}</li>
         ))}
       </ul>
 
